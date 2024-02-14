@@ -1,0 +1,17 @@
+
+:root {
+    --textColor: #67536f; 
+  }
+
+body {
+    /* overflow: hidden; */
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    color: var(--textColor);
+    background-color: #F8EDE3
+}
+
+.container {
+    max-width: 1780px;
+    margin: 0 auto;
+    padding: 0 30px;
+}

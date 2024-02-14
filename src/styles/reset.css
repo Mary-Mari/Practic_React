@@ -1,0 +1,32 @@
+/* Reset styles */
+
+/* Box sizing rules */
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+/* Remove default padding */
+ul[class], ol[class] {
+    padding: 0;
+}
+
+/* Remove default margin */
+body, h1, h2, h3, h4, p, figure, blockquote, dl, dd {
+    margin: 0;
+}
+
+/* Remove list styles on ul, ol elements with a class attribute */
+ul[class], ol[class] {
+    list-style: none;
+}
+
+/* Remove hyperlinks outline style */
+a {
+    text-decoration: none;
+}
+
+/* Make images and embed elements responsive */
+img, embed, iframe, object, audio, video {
+    max-width: 100%;
+    height: auto;
+}
